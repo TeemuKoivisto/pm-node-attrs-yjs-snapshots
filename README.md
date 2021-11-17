@@ -1,6 +1,6 @@
-# [ProseMirror track-changes example](https://teemukoivisto.github.io/prosemirror-track-changes-example/)
+# [pm-node-attrs-yjs-snapshots](https://teemukoivisto.github.io/pm-node-attrs-yjs-snapshots/)
 
-This example app shows how a very primitive track-changes functionality could be implemented with prosemirror-changeset.
+This is a reproduction of a bug with yjs snapshots not showing attributes https://discuss.yjs.dev/t/snapshotting-prosemirror-nodes-with-attributes/732
 
 ## How to install
 
