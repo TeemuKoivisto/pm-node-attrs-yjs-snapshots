@@ -35,12 +35,12 @@ export class YjsProvider {
   }
 
   get yXmlFragment() {
-    if (!this._yXmlFragment) Error('YjsProvider yXmlFragment accessed without initialization!')
+    if (!this._yXmlFragment) throw Error('YjsProvider yXmlFragment accessed without initialization!')
     return this._yXmlFragment
   }
 
   get permanentUserData() {
-    if (!this._permanentUserData) Error('YjsProvider permanentUserData accessed without initialization!')
+    if (!this._permanentUserData) throw Error('YjsProvider permanentUserData accessed without initialization!')
     return this._permanentUserData
   }
 
