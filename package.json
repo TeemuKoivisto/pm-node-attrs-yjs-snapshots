@@ -2,10 +2,12 @@
   "private": true,
   "workspaces": [
     "example",
-    "yjs"
+    "yjs",
+    "y-prosemirror"
   ],
   "scripts": {
-    "yjs": "cd yjs && yarn dist",
+    "yjs": "cd yjs && yarn dist || true && cd ../y-prosemirror && yarn dist",
+    "ypm": "cd y-prosemirror && yarn dist",
     "start": "cd example && yarn start"
   },
   "devDependencies": {

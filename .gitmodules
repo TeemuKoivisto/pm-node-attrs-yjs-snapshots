@@ -2,3 +2,8 @@
 	path = yjs
 	url = https://github.com/TeemuKoivisto/yjs.git
 	branch = main
+
+[submodule "y-prosemirror"]
+	path = y-prosemirror
+	url = https://github.com/TeemuKoivisto/y-prosemirror.git
+	branch = master

@@ -50,7 +50,7 @@ export class YjsProvider {
     const user = testUsers[Math.floor(Math.random() * 3)]
     this._permanentUserData.setUserMapping(this._ydoc, this._ydoc.clientID, user.username)
     this._ydoc.gc = false
-    this._provider = new WebsocketProvider('wss://demos.yjs.dev', 'prosemirror-versions-demo', this._ydoc)
+    // this._provider = new WebsocketProvider('wss://demos.yjs.dev', 'prosemirror-versions-demo', this._ydoc)
     this._yXmlFragment = this._ydoc.getXmlFragment('pm-doc')
     this._observable.emit('init')
   }

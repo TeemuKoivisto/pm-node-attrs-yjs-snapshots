@@ -15,7 +15,7 @@ export const plugins = (ctx: EditorContext) =>
         { light: '#6eeb8333', dark: '#6eeb83' }
       ]
     }),
-    yCursorPlugin(ctx.yjsProvider.provider.awareness),
+    // yCursorPlugin(ctx.yjsProvider.provider.awareness),
     yUndoPlugin(),
     keymap({
       'Mod-z': undo,
