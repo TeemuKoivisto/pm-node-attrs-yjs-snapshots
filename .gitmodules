@@ -1,0 +1,4 @@
+[submodule "yjs"]
+	path = yjs
+	url = https://github.com/TeemuKoivisto/yjs.git
+	branch = main
